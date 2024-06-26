@@ -1,11 +1,12 @@
+/***************font family cdn***********/
 @import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
 
 
-
+/************Universal Styling************/
 
 *{
-	font-family: "Poppins", sans-serif;
-	border:none;
+font-family: "Poppins", sans-serif;
+border:none;
 }
 
 a{text-decoration: none; color: #333;}
@@ -20,8 +21,8 @@ h2{font-size: 17px;} h3{font-size: 15px;}
 
 
 html{
-	font-size: 62.5%;
-	scroll-behavior: smooth}
+font-size: 62.5%;
+scroll-behavior: smooth}
 
 
 
