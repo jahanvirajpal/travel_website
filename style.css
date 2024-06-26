@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Lisu+Bosa:wght@600;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+
+
+
+*{
+	font-family: "Poppins", sans-serif;
+	border:none;
+}
+
+a{text-decoration: none; color: #333;}
+.a_hover a:hover{ color: #f46721; text-decoration: underline;}
+
+
+button{background: linear-gradient(300deg, rgb(244 102 3) 15%, rgb(239 184 146) 90%); }
+
+
+.heading{font-size: 30px; text-align: center; color: #f46721; font-family: cursive; }
+h2{font-size: 17px;} h3{font-size: 15px;}
+
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth}
+
+
+
+
+/*********************************************************
+************************HEADER STYLING*******************
+***********************************************************/
+
+
+
+.tagline{background-color: lightgrey; height: 25px;
+       position: fixed; top: 0; left: 0; right: 0; z-index: 1; }
+
+
+header{
+	position: fixed;
+	margin-top: 25px;
+	top: 0; left: 0; right: 0;
+	background: black;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 9%;
+}
+
+
+.logo{
+	font-size: 2.1rem;
+	font-weight: bolder;
+	color: #f46721;
+ 	font-family: cursive;
+}
+
+header .navbar a{
+	color: white;
+	font-size: 14px;
+	margin: 0.9rem;
+	text-decoration: none;
+}
+
+header .navbar a:hover{
+	color: #f46721;
+}
+
+#menu-bar{
+	color: white;
+	font-size: 3rem;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+
+/*********************************************************
+************************BAR ON EACH PAGE STYLING************
+***********************************************************/
+
+
+.bar {background: linear-gradient(227deg, rgb(255 255 255 / 0%) 0%, rgb(234 102 9) 100%);
+	backdrop-filter: blur(10px);
+	width: 300px;
+	position: center;
+    border-radius: 10px;
+	margin-top: 120px;
+	text-align: center;}
+
+
+
+
+/*********************************************************
+************************BANNER CAROUSEL STYLING*************
+***********************************************************/
+
+
+.banner{margin-top: 100px; }
+
+#mycarousel {z-index: -1;}
+
+
+
+
+/*********************************************************
+************************ABOUT STYLING*******************
+***********************************************************/
+
+
+.home_about img{box-shadow: 10px 5px 30px 5px #f46721, -10px -5px 30px 5px #888888; }
+
+
+
+
+
+/*********************************************************
+************************INFO STYLING*******************
+***********************************************************/
+
+
+
+.info{background: url(images/info.jpg); background-repeat: no-repeat;
+background-attachment: fixed; height: 300px; padding-left: 50px; background-size: cover;}
+
+.info_box{background: linear-gradient(227deg, rgb(244 102 3) 0%, rgba(225, 225, 225, 0.3) 100%);
+	border-radius: 20px; margin-top: 50px; }
+
+.far , .fas{
+font-size: 40px;}
+
+
+
+
+
+/*********************************************************
+************************CARDS ON HOME PAGE STYLING**********
+***********************************************************/
+
+
+
+.card{box-shadow: 0px 0px 27px 11px rgba(0,0,0,.1); margin: auto; }
+.card h3{background: linear-gradient(300deg, rgb(244 102 3) 15%, rgb(239 184 146) 90%);}
+.card p{font-size: 14px;}
+
+.cards_carousel{padding: 40px;}
+
+#recipeCarousel {z-index: -1;}
+
+
+.carousel-control-prev {padding-right :70px;}
+.carousel-control-next {padding-left :70px;}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+      display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  
+
+/*********************************************************
+************************MISSION STYLING*******************
+***********************************************************/
+
+
+
+
+.mission_info{background: linear-gradient(270deg, #86b7fe 10%, #0000000f 100%);
+
+	border-radius: 20px; padding-left: 80px; padding-right: 20px; z-index: -1; }
+
+.mission_img img{margin-top: 20px; margin-left: 75px;}
+
+
+
+/*********************************************************
+************************WHY US STYLING*******************
+***********************************************************/
+
+
+
+
+.whyus{background: linear-gradient(to top, rgb(255,255,255,0.5), rgba(255,255,255,0.5) 100%), 
+ url(images/greybg.jpg); background-repeat: repeat; 
+   background-position: center; padding-bottom: 100px; padding-top: 70px;
+background-attachment: fixed;}
+
+.box{ box-shadow: 5px 5px 10px 5px grey;  border-radius: 10px; background-color: white; margin: auto;}
+
+
+
+
+
+/*********************************************************
+************************CLIENTS STYLING*******************
+***********************************************************/
+	
+
+.clients .first{ background: linear-gradient(227deg, rgb(244 102 3) 0%, rgb(244 102 3 / 30%) 100%);
+  padding-top: 20px; margin: auto; border-top-left-radius: 25px;}
+
+.clients .middle{ background: linear-gradient(227deg, rgb(244 102 3) 0%, rgb(244 102 3 / 30%) 100%);
+  padding-top: 20px;
+ margin: auto; margin-top: 70px;  border-top-left-radius: 25px;}
+
+
+
+
+
+
+/*********************************************************
+************************FOOTER STYLING*******************
+***********************************************************/
+
+
+	
+	.footer {background-image: linear-gradient(to right, rgba(1,0,0,0.6), rgba(0,0,0,0.8)),
+		url(images/footer.jpg); 
+		background-size: cover; background-position: center;}
+
+
+	.footer .navbar li a{font-size: 14px; color: white;}
+	.footer h2{ color: white; }
+
+	.copyright {background-color: black; color: white; text-align: center;}
+
+
+
+
+/*********************************************************
+************************ABOUT PAGE STYLING*******************
+***********************************************************/
+
+
+
+.content{ font-family: cursive;  color: #333; }
+
+.about_img {
+background: linear-gradient(to top, rgb(255,255,255,0.5), rgba(255,255,255,0.5) 100%),
+	url(images/about.jpg);  background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/*********************************************************
+************************PACKAGES PAGE STYLING*******************
+***********************************************************/
+
+
+
+.package{margin: auto; border: solid 2px lightgrey ; border-radius: 10px;}
+.package h3 {background: linear-gradient(300deg, rgb(244 102 3) 15%, rgb(239 184 146) 90%);}
+.package button{background: linear-gradient(300deg, rgb(244 102 3) 15%, rgb(239 184 146) 90%); 
+	margin-bottom: 5px;}
+.package {margin-top: 50px;}
+.package p{color: #333;}
+
+
+
+
+
+
+	/*---------------------------------------------------------
+      --------------------MEDIA QUERY --------------------
+      ---------------------------------------------------------*/
+
+
+
+@media(max-width: 768px){
+
+	#menu-bar{
+		display: initial;
+	}
+	header {margin-top: 58px;}
+
+
+	.tagline{height: auto;}
+	 
+	header .navbar{
+		position: absolute;
+		top: 100%; right: 0; left: 0;
+		background: grey;
+		border-top: .1rem solid rgba(255,255,255,.2);
+		padding: 1rem 2rem ;
+		clip-path: polygon(0 0, 100% 0, 100% 0,0 0);
+
+	}
+
+	header .navbar.active {
+		clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+	}
+
+	header .navbar a{
+	display: block;
+	border-radius: .5rem;
+	padding: 1.5rem;
+	margin: 1.5rem 0; 
+	background: black;
+
+	}
+	.banner {margin-top: 120px;}
+
+
+	.mission_img img {width: 100%; margin: 0; }
+
+	.whyus h1{width: 100%;}
+
+	.info{height: auto;}
+	.mission_info{padding: 0;}
+
+	.clients .middle { margin-top: 20px; }
+	.clients .first { margin-top: 20px; }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
